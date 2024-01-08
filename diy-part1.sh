@@ -22,4 +22,4 @@ echo 'src-git adguardhome https://github.com/rufengsuixing/luci-app-adguardhome'
 echo 'src-git mosdns https://github.com/sbwml/luci-app-mosdns' >>feeds.conf.default
 
 # luci-theme-design
-echo 'src-git design https://github.com/gngpp/luci-theme-design;js' >>feeds.conf.default
+git clone -b js --depth 1 https://github.com/gngpp/luci-theme-design.git  package/luci-theme-design
