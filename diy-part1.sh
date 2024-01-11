@@ -23,7 +23,3 @@ echo 'src-git mosdns https://github.com/sbwml/luci-app-mosdns' >>feeds.conf.defa
 
 # luci-theme-design
 git clone -b js --depth 1 https://github.com/gngpp/luci-theme-design.git  package/luci-theme-design
-
-# update golang version
-rm -rf feeds/packages/lang/golang
-svn co https://github.com/openwrt/packages/branches/openwrt-23.05/lang/golang feeds/packages/lang/golang
